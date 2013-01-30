@@ -4,6 +4,20 @@
 	"description": "logger class able to use mongodb, the console, a file.",
 	"version": "0.1.1",
 	"author": "Toni Wagner <i@itsatony.com>",
+	"url": "http://github.com/itsatony/lg",
+  "keywords": [
+    "logging",
+    "mongodb",
+    "console"
+  ],
+  "contributors": [],
+  "licenses": [
+    "MIT"
+  ],
+  "main": "./lib/lg",
+  "directories": {
+    "lib": "./lib"
+  },
 	"dependencies": {
 		"mongodb": "1.2.5",
 		"minions": "git+ssh://git@github.com:itsatony/minions.git#master"

@@ -19,7 +19,7 @@
     "lib": "./lib"
   },
 	"dependencies": {
-		"mongodb": "1.2.5",
+		"mongodb": "latest",
 		"minions": "git+ssh://git@github.com:itsatony/minions.git#master"
 	},
 	"engine": "node >= 0.9"

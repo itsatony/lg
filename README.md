@@ -9,13 +9,19 @@ just pass the configuration options when instantiating a new logger and there yo
 
 		var log = new Logger(
 			{
-				log2console:true
+				log2console:true,
+				rules: {
+					minLogLevel: function(config, logTarget, content, sender, logLevel) {
+						if (logLevel < 2) return false;
+						return true;
+					}
+				}
 			}, 
 			function(loggerInstance) { 
 				// if you chose log2database, you will need to wait for the callback to be able to actually log... 
 			} 
 		);
 
-		log.add('this is a message', 'cyan', 'byTest');
+		log.add('this is a message', 'cyan', 'byTest', 2);
 	
 	

@@ -2,8 +2,9 @@
 	"name": "lg",
 	"private": false,
 	"description": "logger class able to use mongodb, the console, a file.",
-	"version": "0.4.1",
+	"version": "0.4.2",
 	"author": "Toni Wagner <i@itsatony.com>",
+	"main": "lib/lg.js",
 	"url": "http://github.com/itsatony/lg",
   "keywords": [
     "logging",
@@ -14,13 +15,14 @@
   "licenses": [
     "MIT"
   ],
-  "main": "./lib/lg",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
 	"dependencies": {
 		"mongodb": "latest",
-		"minions": "git+ssh://git@github.com:itsatony/minions.git#master"
+		"minions": "latest"
 	},
-	"engine": "node >= 0.9"
+	"engines": {
+    "node": ">= 0.8.0"
+	}
 }

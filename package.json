@@ -2,7 +2,7 @@
 	"name": "lg",
 	"private": false,
 	"description": "logger class able to use mongodb, the console, a file.",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"author": "Toni Wagner <i@itsatony.com>",
 	"main": "lib/lg.js",
 	"url": "http://github.com/itsatony/lg",

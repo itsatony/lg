@@ -2,7 +2,7 @@
 	"name": "lg",
 	"private": false,
 	"description": "logger class able to use mongodb, the console, a file.",
-	"version": "0.4.2",
+	"version": "0.4.4",
 	"author": "Toni Wagner <i@itsatony.com>",
 	"main": "lib/lg.js",
 	"url": "http://github.com/itsatony/lg",
@@ -20,7 +20,8 @@
   },
 	"dependencies": {
 		"mongodb": "latest",
-		"minions": "latest"
+		"minions": "latest",
+		"njson": "latest"
 	},
 	"engines": {
     "node": ">= 0.8.0"

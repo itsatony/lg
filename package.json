@@ -1,14 +1,13 @@
 {
 	"name": "lg",
 	"private": false,
-	"description": "logger class able to use mongodb, the console, a file.",
-	"version": "0.4.9",
+	"description": "logger class based on rule-functions. uses the console, a file and trigger an event for more complex action.",
+	"version": "0.5.0",
 	"author": "Toni Wagner <i@itsatony.com>",
 	"main": "lib/lg.js",
 	"url": "http://github.com/itsatony/lg",
   "keywords": [
     "logging",
-    "mongodb",
     "console"
   ],
   "contributors": [],
@@ -19,7 +18,6 @@
     "lib": "lib"
   },
 	"dependencies": {
-		"mongodb": "latest",
 		"minions": "latest",
 		"njson": "latest"
 	},
